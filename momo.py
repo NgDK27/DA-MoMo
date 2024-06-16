@@ -11,7 +11,7 @@ st.set_page_config(
 alt.themes.enable("dark")
 
 # Load the data
-file_path = "D:/New Download/MoMo Talent 2024 - Test - Data Analytics Trainee/MoMo Talent 2024_DA_Case Study Round_Questions.xlsx"
+file_path = "./MoMo Talent 2024_DA_Case Study Round_Questions.xlsx"
 transactions_df = pd.read_excel(file_path, sheet_name='Data Transactions')
 commission_df = pd.read_excel(file_path, sheet_name='Data Commission')
 user_info_df = pd.read_excel(file_path, sheet_name='Data User_Info')
